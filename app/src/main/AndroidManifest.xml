@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.winning_calendar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/wicon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/wicon2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WinningCalendar">
+        <activity
+            android:name="com.example.winning_calendar.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ScheduleView"/>
+        <activity android:name=".ScheduleSub"/>
+        <activity android:name=".WeekMainActivity"/>
+        <activity android:name=".WeekActivity"/>
+
+
+    </application>
+
+</manifest>

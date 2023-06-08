@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu1"
+            android:title="주간" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/menu2"
+            android:title="월간" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/menu3"
+            android:title="대학 시간표"/>
+    </group>
+</menu>
